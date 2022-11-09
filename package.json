@@ -1,0 +1,27 @@
+{
+  "name": "document-service",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon -r esm ./src/bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "esm": "^3.2.25",
+    "express": "~4.16.1",
+    "express-formidable": "^1.2.0",
+    "filereader": "^0.10.3",
+    "fs-extra": "^10.1.0",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "js-sha3": "^0.8.0",
+    "moment": "^2.29.4",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.19",
+    "pdf-lib": "^1.17.1",
+    "qrcode": "^1.5.1",
+    "uuid": "^9.0.0"
+  }
+}
